@@ -1,0 +1,36 @@
+nav {
+  height: 10vh;
+  margin: 0px 50px;
+
+  /*   background-color: green;
+  border-bottom: 1px solid black; */
+
+  align-items: center;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+nav a {
+  font-size: 1.2em;
+}
+
+.Logo {
+  justify-self: start;
+  font-weight: bold;
+}
+
+.Kattas-Teknologiske-Festival {
+  justify-self: end;
+}
+
+.Pamelding {
+  justify-self: end;
+}
+
+.Hamar-Katedralskole {
+  justify-self: end;
+}
