@@ -1,3 +1,5 @@
+export { default as ArrowCircleLeft } from './ArrowCircleLeft'
+export { default as ArrowCircleRight } from './ArrowCircleRight'
 export { default as Envelope } from './Envelope'
 export { default as Instagram } from './Instagram'
 export { default as MapMarker } from './MapMarker'
