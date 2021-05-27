@@ -1,11 +1,12 @@
 nav {
   height: 10vh;
-  margin: 0px 50px;
+  margin: 0px 31vh;
 
   /*   background-color: green;
   border-bottom: 1px solid black; */
 
   align-items: center;
+  font-family: "Montserrat", sans-serif;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -18,9 +19,13 @@ nav a {
   font-size: 1.2em;
 }
 
-.Logo {
+.logo {
   justify-self: start;
   font-weight: bold;
+}
+
+.logo img {
+  height: 7vh;
 }
 
 .Kattas-Teknologiske-Festival {
