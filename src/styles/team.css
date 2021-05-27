@@ -1,0 +1,36 @@
+.team {
+  padding: 5vh 50vh;
+}
+
+.team .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  text-align: center;
+}
+
+.team img {
+  border-radius: 50%;
+  height: 20vh;
+}
+
+.team-inner {
+  justify-items: center;
+}
+
+.team .row-top {
+  margin-bottom: 5vh;
+}
+
+.team-inner h2 {
+  margin: 0;
+}
+
+.team-inner p {
+  margin: 0;
+  font-weight: 100;
+  opacity: 70%;
+}

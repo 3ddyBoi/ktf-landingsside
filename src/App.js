@@ -4,6 +4,7 @@ import Head from './components/Head'
 import ImageSlider from './components/ImageSlider';
 import Nav from './components/Nav';
 import { SliderData } from './components/SliderData';
+import Team from './components/Team';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Nav />
         <ImageSlider slides={SliderData} />
         <Begeistring />
+        <Team />
     </div>
   );
 }
