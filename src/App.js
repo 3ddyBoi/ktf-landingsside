@@ -1,5 +1,6 @@
 import './App.css';
 import Begeistring from './components/Begeistring';
+import Footer from './components/Footer';
 import Head from './components/Head'
 import ImageSlider from './components/ImageSlider';
 import Nav from './components/Nav';
@@ -14,6 +15,8 @@ function App() {
         <ImageSlider slides={SliderData} />
         <Begeistring />
         <Team />
+        <Footer />
+
     </div>
   );
 }
