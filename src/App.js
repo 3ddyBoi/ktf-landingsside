@@ -1,4 +1,5 @@
 import './App.css';
+import Begeistring from './components/Begeistring';
 import Head from './components/Head'
 import ImageSlider from './components/ImageSlider';
 import Nav from './components/Nav';
@@ -10,6 +11,7 @@ function App() {
         <Head />
         <Nav />
         <ImageSlider slides={SliderData} />
+        <Begeistring />
     </div>
   );
 }
