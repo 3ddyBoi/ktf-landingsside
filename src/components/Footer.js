@@ -6,26 +6,26 @@ function Footer() {
     return (
 <div className="Footer">
       <div className="sosiale-medier">
-        <a href="https://github.com/3ddyBoi" target="blank">
-          <Instagram className="Github-icon icon" />
+        <a href="https://www.instagram.com/ktf/" target="blank">
+          <Instagram className="icon" />
         </a>
         <a href="https://www.snapchat.com/add/ktf" target="blank">
-          <Snapchat className="Snapchat-icon icon" />
+          <Snapchat className="icon" />
         </a>
         <a href="mailto:ktf@gmail.com">
-          <Envelope className="Instagram-icon icon" />
+          <Envelope className="icon" />
         </a>
       </div>
       <div className="contact">
         <p className="phone">
-          <a href="tel:+4794799702">Telefon: 947 99 702</a>
+          <a href="tel:+62544200">Telefon: 62 54 42 00</a>
         </p>
         <p className="mail">
-          <a href="mailto:edvardhoiby@outlook.com">
-            Epost: edvardhoiby@outlook.com
+          <a href="mailto:ktf@hedmark.org">
+            Epost: ktf@hedmark.org
           </a>
         </p>
-        <p className="location">2380 Brumunddal</p>
+        <p className="location">2315 Hamar</p>
         <p className="copyright_tekst">© Edvard Høiby</p>
       </div>
     </div>
