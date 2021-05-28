@@ -1,0 +1,46 @@
+.Kontakt {
+  background-color: #92c0e9;
+}
+
+.Kontakt .overskrifter {
+  margin: 10vh 0 0 31vh;
+  padding: 5vh 0 0 0;
+}
+
+.Kontakt .overskrifter-h1 {
+  margin: 0 0 1vh 0;
+}
+
+.Kontakt .overskrifter-h2 {
+  margin: 0 0 3vh 0;
+}
+
+.Kontakt .outer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.Kontakt .outer-grid img {
+  width: 30vw;
+}
+
+.Kontakt .outer-grid .row-1 {
+  margin: 0 0 0 31vh;
+  padding: 0 10vh 0 0;
+}
+
+.Kontakt .outer-grid .row-2 {
+  margin: 0 31vh 0 0;
+  padding: 0 0 10vh 10vh;
+  text-align: end;
+}
+
+.Kontakt .IFrame_maps {
+  border-radius: 1%;
+  border: 0;
+  width: 40vw;
+  height: 50vh;
+}

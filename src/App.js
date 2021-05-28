@@ -4,6 +4,7 @@ import Fasiliteter from './components/Fasiliteter';
 import Footer from './components/Footer';
 import Head from './components/Head'
 import ImageSlider from './components/ImageSlider';
+import Kontakt from './components/Kontakt';
 import Nav from './components/Nav';
 import { SliderData } from './components/SliderData';
 import Team from './components/Team';
@@ -17,6 +18,7 @@ function App() {
         <Begeistring />
         <Fasiliteter />
         <Team />
+        <Kontakt />
         <Footer />
 
     </div>
