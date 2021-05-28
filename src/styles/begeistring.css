@@ -15,7 +15,7 @@
   margin: 0 0 3vh 0;
 }
 
-.outer-grid {
+.begeistring .outer-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -23,21 +23,21 @@
   grid-row-gap: 0px;
 }
 
-.outer-grid img {
+.begeistring .outer-grid img {
   width: 30vw;
 }
 
-.outer-grid .row-1 {
+.begeistring .outer-grid .row-1 {
   margin: 0 0 0 31vh;
   padding: 0 10vh 0 0;
 }
 
-.outer-grid .row-2 {
+.begeistring .outer-grid .row-2 {
   margin: 0 31vh 0 0;
   padding: 0 0 0 10vh;
   text-align: end;
 }
 
-.paragraph {
+.begeistring .paragraph {
   padding-bottom: 3vh;
 }
