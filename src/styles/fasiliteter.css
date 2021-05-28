@@ -1,0 +1,27 @@
+.fasiliteter {
+  padding: 5vh 50vh;
+  background-color: pink;
+}
+
+.fasiliteter .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  text-align: center;
+}
+
+.fasiliteter img {
+  height: 20vh;
+}
+
+.fasiliteter-inner {
+  margin-bottom: 5vh;
+  justify-items: center;
+}
+
+.fasiliteter-inner h2 {
+  margin: 0;
+}
