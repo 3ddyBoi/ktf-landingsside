@@ -44,3 +44,21 @@
   width: 40vw;
   height: 50vh;
 }
+
+.Kontakt .paragraph {
+  padding-bottom: 4vh;
+}
+
+.Kontakt .paragraph-section {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". .";
+
+  margin: 1vh 0;
+}
+
+.Kontakt .paragraph-b {
+  font-weight: 600;
+}
