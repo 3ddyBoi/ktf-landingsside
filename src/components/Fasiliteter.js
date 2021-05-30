@@ -7,7 +7,7 @@ import VR from "../assets/images/Fasiliteter/VR.svg";
 
 function Fasiliteter() {
   return (
-    <div className="fasiliteter">
+    <div className="fasiliteter" id="fasiliteter">
       <div className="overskrifter">
         <h1>Fasiliteter</h1>
         <h2>Dette er det vi har å tilby av workshops.</h2>
