@@ -6,6 +6,7 @@ import Head from "./components/Head";
 import ImageSlider from "./components/ImageSlider";
 import Kontakt from "./components/Kontakt";
 import Nav from "./components/Nav";
+import Pamelding from "./components/Pamelding";
 import { SliderData } from "./components/SliderData";
 import Team from "./components/Team";
 
@@ -19,6 +20,7 @@ function App() {
       <Fasiliteter />
       <Team />
       <Kontakt />
+      <Pamelding />
       <Footer />
     </div>
   );
