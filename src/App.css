@@ -16,3 +16,19 @@ h2 {
 p {
   font-family: "Open Sans", sans-serif;
 }
+
+#left_blob {
+  height: 80vh;
+  position: absolute;
+  top: 160%;
+  left: 0;
+  z-index: -1;
+}
+
+#right_blob {
+  height: 60vh;
+  position: absolute;
+  top: 280%;
+  right: 0;
+  z-index: -1;
+}
