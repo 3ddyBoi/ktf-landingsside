@@ -1,0 +1,95 @@
+.Pamelding-side {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  height: 50vh;
+}
+
+.Pamelding-side .Art-Pamelding {
+  justify-self: center;
+}
+
+.Pamelding-side .Art-Pamelding img {
+  height: 40vh;
+}
+
+.Pamelding-side .overskrifter-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.4fr 1.6fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "."
+    ".";
+}
+
+.Pamelding-side form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.Pamelding-side div {
+  justify-self: start;
+  align-self: center;
+}
+
+.Pamelding-side input {
+  margin: 3px 0;
+  background-color: #fff1cd;
+  border-radius: 5px;
+  outline: none;
+  border: 0;
+  height: 5vh;
+  width: 30vw;
+  padding: 0 1vh;
+  font-size: 1.1em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.Pamelding-side input::placeholder {
+  opacity: 0.8;
+  font-size: 1.1em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.Pamelding-side .overskrifter h1 {
+  color: #ffb600;
+  margin: 0 0 1vh 0;
+}
+
+.Pamelding-side .overskrifter h2 {
+  font-weight: 500;
+  font-size: 1.2em;
+  margin: 0 0 3vh 0;
+}
+
+.Pamelding-side button {
+  margin-top: 10px;
+  background-color: #ffb600;
+  height: 6vh;
+  width: 20vw;
+  border-width: 0px 0px medium 0px;
+  border-color: #a77700;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.Pamelding-side button:active {
+  background: #ffb600;
+  border: none;
+  -webkit-box-shadow: inset 0px 0px 5px #4b3600;
+  -moz-box-shadow: inset 0px 0px 5px #4b3600;
+  box-shadow: inset 0px 0px 5px #4b3600;
+  outline: none;
+}

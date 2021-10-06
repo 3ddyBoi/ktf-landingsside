@@ -1,6 +1,7 @@
 nav {
   height: 10vh;
   margin: 0px 31vh;
+  scroll-behavior: smooth;
 
   /*   background-color: green;
   border-bottom: 1px solid black; */
@@ -19,23 +20,23 @@ nav a {
   font-size: 1.2em;
 }
 
-.logo {
+nav .logo {
   justify-self: start;
   font-weight: bold;
 }
 
-.logo img {
+nav .logo img {
   height: 7vh;
 }
 
-.Kattas-Teknologiske-Festival {
+nav .Kattas-Teknologiske-Festival {
   justify-self: end;
 }
 
-.Pamelding {
+nav .Pamelding {
   justify-self: end;
 }
 
-.Hamar-Katedralskole {
+nav .Hamar-Katedralskole {
   justify-self: end;
 }
